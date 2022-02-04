@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a850240-8476-427e-ade4-ca27380680e8">
+  <producedTypes>
+    <objectType typeId="cd2fdb49-e016-4785-9ec4-37183e9be8f5" valueTypeId="6994463e-4c74-4485-8c63-d2e9c33887aa"/>
+    <managerType typeId="dcb23b20-691a-48ec-bda1-32fbe7ce31f5" valueTypeId="3b1bd1e3-289d-4b3e-8917-bc3ae075cc3e"/>
+  </producedTypes>
+  <name>Тестирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестирование</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

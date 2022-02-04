@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74325707-22b7-48d1-855e-afdb96ef734d">
+  <producedTypes>
+    <selectionType typeId="4ee769d1-610d-44d8-98b1-e021229680c1" valueTypeId="0eea6b66-6cb3-4787-b0dd-cf554fc6c58b"/>
+    <listType typeId="2e8cb49b-ed34-4935-bb2a-1daf4c09d980" valueTypeId="2d819132-d524-4eb1-be6e-ea83dbac239c"/>
+    <managerType typeId="ec6b3ef8-5a1f-451a-b5c8-eecb18711b08" valueTypeId="7b2642a6-52bf-498e-9fd7-4ee0c4738aea"/>
+    <recordSetType typeId="b23d86d4-350a-4364-908e-35941650dad3" valueTypeId="7b49baa7-469a-4437-b03d-8a2af35c5082"/>
+    <recordKeyType typeId="f7c4fcd4-be67-4e94-9f5f-6fd242414453" valueTypeId="f92b699e-374c-4358-a26b-a12a81bef7d6"/>
+    <recordType typeId="2e17225c-f7fc-467c-b833-962fcf5df63c" valueTypeId="85cd1ce6-1eff-45dd-94e4-d17125ab985c"/>
+    <recordManagerType typeId="4d21a5f5-cbfa-44b5-9dbb-10788ac7cd56" valueTypeId="3ff4b0d3-8f22-49fa-a557-8199466486ea"/>
+  </producedTypes>
+  <name>ИзбранныеВопросы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Избранные вопросы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Избранный вопрос</value>
+  </recordPresentation>
+  <resources uuid="f8e068cf-2481-4f82-82a3-f0791c1fe30d">
+    <name>ДатаДобавления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата добавления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e875cae3-d750-4dd8-a478-001c2ba940a9">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b3c01f84-97a6-444f-8e3d-82b491e5e9d3">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тесты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a9ba2883-4e19-4dde-9964-3f90573a0504">
+    <name>Вопрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопрос</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Вопросы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

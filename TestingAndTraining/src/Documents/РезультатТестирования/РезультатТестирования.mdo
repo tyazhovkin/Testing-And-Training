@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a57d652-5577-49ca-a555-110e1d4695b3">
+  <producedTypes>
+    <objectType typeId="2911f229-ac24-4c7b-af93-e8386abfdbe3" valueTypeId="62361cfc-c2e6-4cb7-b6d3-b619a29ae9dc"/>
+    <refType typeId="958fe700-11fe-47c0-ad94-19b19a6f3428" valueTypeId="3e4c57e7-8431-4916-b2b3-05dbef4134a1"/>
+    <selectionType typeId="68861dca-2e7b-4ddc-a8ab-14f02dee29a8" valueTypeId="91634f01-06fb-4144-ac87-e142580c2ee8"/>
+    <listType typeId="43aa0ef3-578b-4dda-99a4-099b686e22a9" valueTypeId="cebffd67-a5a2-450d-907f-4755984456a2"/>
+    <managerType typeId="bb925281-253f-4870-ba8d-ed4b07503167" valueTypeId="2c5f2568-ee8a-40c4-a13d-d26a5c537d88"/>
+  </producedTypes>
+  <name>РезультатТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результат тестирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РезультатТестирования.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Результат тестирования</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.РезультатыТестирований</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="8537fd62-0b75-4fc6-8f74-61ffc13cfd74">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="114b636d-aff4-4a76-899b-26d28718b91b">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тесты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="5af83994-f584-47e4-b5b7-72bf0c993f43">
+    <producedTypes>
+      <objectType typeId="04eec044-857c-4cd9-9f33-bd892b434b32" valueTypeId="6209cbdb-3528-4044-a395-c156f9dbf7b1"/>
+      <rowType typeId="9a47b625-7322-4eaa-b83e-c4c1966986b4" valueTypeId="03e73733-42a7-487c-9091-ce7311f891c8"/>
+    </producedTypes>
+    <name>Вопросы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопросы</value>
+    </synonym>
+    <attributes uuid="95190133-a7aa-43e6-89b4-c0f67514afa2">
+      <name>Вопрос</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вопрос</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Вопросы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f5d0ab44-dd3f-4583-89c2-3263f6852abe">
+      <name>Ответ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответ</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Ответы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f567c99a-c524-411b-a595-5688987b34df">
+      <name>Правильный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Правильный</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

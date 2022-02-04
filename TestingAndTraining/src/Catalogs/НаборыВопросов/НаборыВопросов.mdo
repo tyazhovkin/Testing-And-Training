@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fefce65d-f3b2-4367-b2ce-9e7f73b7d36b">
+  <producedTypes>
+    <objectType typeId="c6946d6b-884a-4526-ae29-c43f8bffa4d4" valueTypeId="46210796-92ec-4df4-ba5e-77fa65222ce2"/>
+    <refType typeId="d8741f38-5aef-4e1e-9fbc-6d89fe76a6fb" valueTypeId="8c4449ab-b53e-4808-bbfd-82218a9402ed"/>
+    <selectionType typeId="7270110c-a32b-4463-a5c9-538ad8609555" valueTypeId="a874ded6-4605-4fee-8b4b-b3c1c4f15e41"/>
+    <listType typeId="fd49e8e2-28db-4352-bc10-c97c72c5f8bf" valueTypeId="c08142be-42e3-46cc-8d82-683bbb0c8df4"/>
+    <managerType typeId="e65d732a-21da-48b1-b4d9-0e0f7215ffcc" valueTypeId="1f347e38-0810-4fb3-a98c-d569fd221802"/>
+  </producedTypes>
+  <name>НаборыВопросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наборы вопросов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НаборыВопросов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.НаборыВопросов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Набор вопросов</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НаборыВопросов.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="be0ef29d-8724-4448-89ce-510607f593e3">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тесты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4c7886aa-73dc-47fa-b0dc-026263eb4d63">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="d5d6b98f-44b9-4c6d-b910-b729910df92b">
+    <producedTypes>
+      <objectType typeId="3f41aa91-2758-432a-9193-4276f7d93f80" valueTypeId="a874e3bb-dae4-4c7f-92f1-797ab79ca4ae"/>
+      <rowType typeId="f129e51c-5dd1-44e4-8192-0f296295f85a" valueTypeId="5590cecb-7cb8-4ba6-be3c-a6ec96b4dd42"/>
+    </producedTypes>
+    <name>Вопросы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопросы</value>
+    </synonym>
+    <attributes uuid="c5433bdc-c3ef-4793-939e-f65568f4bd99">
+      <name>Вопрос</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вопрос</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Вопросы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="0d588300-d579-4d0a-aab4-30e9b267672f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

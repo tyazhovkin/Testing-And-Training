@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa34db19-9fd7-4a3f-9125-fca4d92d03e6">
+  <producedTypes>
+    <objectType typeId="3f4ad2f3-deed-4c13-97dd-cd1c6f8188a3" valueTypeId="fc686525-a811-4edb-bbc7-e1b651b57678"/>
+    <managerType typeId="3b4eabc9-55e9-431b-82a6-38948224f9aa" valueTypeId="fca60955-8565-434d-8054-52fb55f75636"/>
+  </producedTypes>
+  <name>Вопросы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вопросы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>
