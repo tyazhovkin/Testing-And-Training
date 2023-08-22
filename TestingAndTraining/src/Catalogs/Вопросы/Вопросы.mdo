@@ -213,4 +213,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="5aeac8a2-3ee0-4392-bc51-0ac9b4337959">
+    <name>ФормаОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ответа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
