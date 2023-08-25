@@ -24,23 +24,13 @@
 		</filter>
 		<appearance>
 			<dcscor:item xsi:type="SettingsParameterValue">
-				<dcscor:use>false</dcscor:use>
-				<dcscor:parameter>Текст</dcscor:parameter>
-				<dcscor:value xsi:type="v8:LocalStringType">
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content/>
-					</v8:item>
-				</dcscor:value>
-			</dcscor:item>
-			<dcscor:item xsi:type="SettingsParameterValue">
-				<dcscor:use>false</dcscor:use>
-				<dcscor:parameter>Шрифт</dcscor:parameter>
-				<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" kind="WindowsFont"/>
-			</dcscor:item>
-			<dcscor:item xsi:type="SettingsParameterValue">
 				<dcscor:parameter>ЦветФона</dcscor:parameter>
 				<dcscor:value xsi:type="v8ui:Color">web:IndianRed</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:use>false</dcscor:use>
+				<dcscor:parameter>Текст</dcscor:parameter>
+				<dcscor:value xsi:type="v8:LocalStringType"/>
 			</dcscor:item>
 		</appearance>
 	</item>
